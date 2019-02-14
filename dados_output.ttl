@@ -1,0 +1,54 @@
+<http://example.com/DCEV1020> <http://netkor.com/belongsTo> "Programação I".
+<http://example.com/DCEV1020> <http://netkor.com/hasCreditos> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEV1020> <http://netkor.com/periodo> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEV1020> <http://netkor.com/hasCHTotal> "60"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEV1020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "DisciplinaType".
+<http://example.com/DCEV1020> <http://netkor.com/ofertadaPor> "DCEL".
+<http://example.com/DCEV1020> <DCEV1020> "DCEL".
+<http://example.com/DCEL1030> <http://netkor.com/belongsTo> "Programação II".
+<http://example.com/DCEL1030> <http://netkor.com/hasCreditos> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1030> <http://netkor.com/periodo> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1030> <http://netkor.com/hasCHTotal> "60"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "DisciplinaType".
+<http://example.com/DCEL1030> <http://netkor.com/ofertadaPor> "DCEL".
+<http://example.com/DCEL1030> <DCEL1030> "DCEL".
+<http://example.com/DCEL1040> <http://netkor.com/belongsTo> "Estrutura de Dados I".
+<http://example.com/DCEL1040> <http://netkor.com/hasCreditos> "5"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1040> <http://netkor.com/periodo> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1040> <http://netkor.com/hasCHTotal> "75"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "DisciplinaType".
+<http://example.com/DCEL1040> <http://netkor.com/ofertadaPor> "DCEL".
+<http://example.com/DCEL1040> <DCEL1040> "DCEL".
+<http://example.com/DCEL1050> <http://netkor.com/belongsTo> "Linguagens Formais".
+<http://example.com/DCEL1050> <http://netkor.com/hasCreditos> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1050> <http://netkor.com/periodo> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1050> <http://netkor.com/hasCHTotal> "60"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "DisciplinaType".
+<http://example.com/DCEL1050> <http://netkor.com/ofertadaPor> "DCEL".
+<http://example.com/DCEL1050> <DCEL1050> "DCEL".
+<http://example.com/DCEL1060> <http://netkor.com/belongsTo> "Compiladores".
+<http://example.com/DCEL1060> <http://netkor.com/hasCreditos> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1060> <http://netkor.com/periodo> "7"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1060> <http://netkor.com/hasCHTotal> "60"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "DisciplinaType".
+<http://example.com/DCEL1060> <http://netkor.com/ofertadaPor> "DCEL".
+<http://example.com/DCEL1060> <DCEL1060> "DCEL".
+<http://example.com/DCEL1070> <http://netkor.com/belongsTo> "Redes de Computadores".
+<http://example.com/DCEL1070> <http://netkor.com/hasCreditos> "5"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1070> <http://netkor.com/periodo> "7"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1070> <http://netkor.com/hasCHTotal> "75"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://example.com/DCEL1070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "DisciplinaType".
+<http://example.com/DCEL1070> <http://netkor.com/ofertadaPor> "DCEL".
+<http://example.com/DCEL1070> <DCEL1070> "DCEL".
+<http://example.com/Programa%C3%A7%C3%A3o%20I> <http://netkor.com/has> "DCEV1020".
+<http://example.com/Programa%C3%A7%C3%A3o%20I> <http://netkor.com/belongsToDepto> "DCEL".
+<http://example.com/Programa%C3%A7%C3%A3o%20II> <http://netkor.com/has> "DCEL1030".
+<http://example.com/Programa%C3%A7%C3%A3o%20II> <http://netkor.com/belongsToDepto> "DCEL".
+<http://example.com/Estrutura%20de%20Dados%20I> <http://netkor.com/has> "DCEL1040".
+<http://example.com/Estrutura%20de%20Dados%20I> <http://netkor.com/belongsToDepto> "DCEL".
+<http://example.com/Linguagens%20Formais> <http://netkor.com/has> "DCEL1050".
+<http://example.com/Linguagens%20Formais> <http://netkor.com/belongsToDepto> "DCEL".
+<http://example.com/Compiladores> <http://netkor.com/has> "DCEL1060".
+<http://example.com/Compiladores> <http://netkor.com/belongsToDepto> "DCEL".
+<http://example.com/Redes%20de%20Computadores> <http://netkor.com/has> "DCEL1070".
+<http://example.com/Redes%20de%20Computadores> <http://netkor.com/belongsToDepto> "DCEL".
